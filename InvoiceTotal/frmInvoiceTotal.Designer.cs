@@ -1,4 +1,7 @@
-﻿namespace InvoiceTotal
+﻿using System.Windows.Forms;
+using System;
+
+namespace InvoiceTotal
 {
     partial class frmInvoiceTotal
     {
