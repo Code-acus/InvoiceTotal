@@ -46,9 +46,10 @@ namespace InvoiceTotal
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 42);
+            this.label1.Location = new System.Drawing.Point(58, 34);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 16);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "&Subtotal:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -56,9 +57,10 @@ namespace InvoiceTotal
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(78, 113);
+            this.label2.Location = new System.Drawing.Point(58, 92);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 16);
+            this.label2.Size = new System.Drawing.Size(92, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Discount Percent:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -66,9 +68,10 @@ namespace InvoiceTotal
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(78, 186);
+            this.label3.Location = new System.Drawing.Point(58, 151);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 16);
+            this.label3.Size = new System.Drawing.Size(91, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Discount Amount:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -76,52 +79,58 @@ namespace InvoiceTotal
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(78, 261);
+            this.label4.Location = new System.Drawing.Point(58, 212);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 16);
+            this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Total:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSubtotal
             // 
-            this.txtSubtotal.Location = new System.Drawing.Point(248, 39);
+            this.txtSubtotal.Location = new System.Drawing.Point(186, 32);
+            this.txtSubtotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.Size = new System.Drawing.Size(100, 22);
+            this.txtSubtotal.Size = new System.Drawing.Size(76, 20);
             this.txtSubtotal.TabIndex = 1;
             // 
             // txtDiscountPercent
             // 
-            this.txtDiscountPercent.Location = new System.Drawing.Point(248, 107);
+            this.txtDiscountPercent.Location = new System.Drawing.Point(186, 87);
+            this.txtDiscountPercent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
             this.txtDiscountPercent.ReadOnly = true;
-            this.txtDiscountPercent.Size = new System.Drawing.Size(100, 22);
+            this.txtDiscountPercent.Size = new System.Drawing.Size(76, 20);
             this.txtDiscountPercent.TabIndex = 5;
             this.txtDiscountPercent.TabStop = false;
             // 
             // txtDiscountAmount
             // 
-            this.txtDiscountAmount.Location = new System.Drawing.Point(248, 180);
+            this.txtDiscountAmount.Location = new System.Drawing.Point(186, 146);
+            this.txtDiscountAmount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDiscountAmount.Name = "txtDiscountAmount";
             this.txtDiscountAmount.ReadOnly = true;
-            this.txtDiscountAmount.Size = new System.Drawing.Size(100, 22);
+            this.txtDiscountAmount.Size = new System.Drawing.Size(76, 20);
             this.txtDiscountAmount.TabIndex = 6;
             this.txtDiscountAmount.TabStop = false;
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(248, 255);
+            this.txtTotal.Location = new System.Drawing.Point(186, 207);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.ReadOnly = true;
-            this.txtTotal.Size = new System.Drawing.Size(100, 22);
+            this.txtTotal.Size = new System.Drawing.Size(76, 20);
             this.txtTotal.TabIndex = 7;
             this.txtTotal.TabStop = false;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(81, 322);
+            this.btnCalculate.Location = new System.Drawing.Point(61, 262);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(100, 41);
+            this.btnCalculate.Size = new System.Drawing.Size(75, 33);
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -130,20 +139,22 @@ namespace InvoiceTotal
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(248, 322);
+            this.btnExit.Location = new System.Drawing.Point(186, 262);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(100, 41);
+            this.btnExit.Size = new System.Drawing.Size(75, 33);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmInvoiceTotal
             // 
             this.AcceptButton = this.btnCalculate;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(454, 415);
+            this.ClientSize = new System.Drawing.Size(340, 337);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtTotal);
@@ -154,6 +165,7 @@ namespace InvoiceTotal
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmInvoiceTotal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Invoice Total";

@@ -15,6 +15,8 @@ namespace InvoiceTotal
         public frmInvoiceTotal()
         {
             InitializeComponent();
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
@@ -38,6 +40,11 @@ namespace InvoiceTotal
             {
                 MessageBox.Show("An unexpected error has occurred: " + ex.Message, "Error");
             }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
